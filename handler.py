@@ -8,7 +8,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 TOKEN = '592559771:AAEmxJftMbJYkMJ-Z_B_cwS2oRCyKVj2zg0'
 DB_HOST = 'localhost'
 DB_USER = 'root'
-DB_PASSWORD = 'show'
+DB_PASSWORD = 'db_1807_tel'
 DB_NAME = 'telegram_api'
 
 tel_db = mysql.connector.connect(
