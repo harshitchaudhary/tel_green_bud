@@ -1,3 +1,4 @@
+# asdas das dasd asda sdasd
 from telegram.ext import Updater, CommandHandler
 import mysql.connector
 
@@ -18,7 +19,7 @@ tel_db = mysql.connector.connect(
 		database=DB_NAME
 	)
 dbCursor = tel_db.cursor()
-	
+
 
 updater = Updater(token=TOKEN)
 
@@ -71,6 +72,6 @@ action_handler = CommandHandler('actions', showHandles)
 dispatcher.add_handler(action_handler)
 
 def touchUser(user_id):
-	return 0; 
+	return 0;
 
 updater.start_polling()
